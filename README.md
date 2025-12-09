@@ -4,6 +4,10 @@ A simple REST API built with **Express.js** that demonstrates the usage of my cu
 
 > 💡 **This project uses my published npm package!** Install it with: `npm install @ashuhrai_71/city-count`
 
+## 🌐 Live Demo
+
+**API is live at:** [https://deploy-api-vwft.onrender.com/api/v1/users](https://deploy-api-vwft.onrender.com/api/v1/users)
+
 ## 📦 About
 
 This project showcases how to integrate and use my custom npm package (`@ashuhrai_71/city-count`) to count users by city in a REST API. The `city-count` package was created by me to provide a simple, lightweight utility for counting occurrences of users from specific cities.
