@@ -1,0 +1,26 @@
+{
+  "name": "deploy-api",
+  "version": "1.0.0",
+  "description": "A REST API demonstrating usage of @ashuhrai_71/city-count package",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashurai84/Deploy-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ashurai84/Deploy-api/issues"
+  },
+  "homepage": "https://github.com/Ashurai84/Deploy-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1"
+  }
+}
