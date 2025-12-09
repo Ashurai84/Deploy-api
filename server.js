@@ -1,7 +1,6 @@
 import express from "express"
 import cors from "cors"
-import { checkCityCount } from "/Users/ashutoshrai/Desktop/deploy-api/node_modules/city-count"
-
+import checkCityCount from "@ashuhrai_71/city-count"
 
 const app = express()
 
@@ -15,12 +14,7 @@ app.get("/api/v1/users", (req, res) => {
     let count = checkCityCount(users, "Mumbai")
     console.log("Number of users in Mumbai:", count)
 })
-
-// app.get("/api/v1/city-count/:city", (req, res) => {
-//     const city = req.params.city
-//     const count = checkCityCount(users, city)
-//     res.json({ city, count })
-// })
+ 
 
 app.listen(8000, () => {
     console.log("Server Up and Running")

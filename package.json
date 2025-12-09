@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Ashurai84/Deploy-api#readme",
   "dependencies": {
+    "@ashuhrai_71/city-count": "^1.0.5",
     "cors": "^2.8.5",
     "express": "^5.2.1"
   }
